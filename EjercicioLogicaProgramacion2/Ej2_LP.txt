@@ -1,0 +1,11 @@
+Algoritmo convertirTemperatura
+	Leer temp
+	Si (temp<>num) Entonces
+		Escribir 'Ingrese un valor numérico'
+	SiNo
+		Escribir K=(temp+273.15)
+		Escribir F=((temp*1.8)+32)
+	FinSi
+	Escribir 'Grados K:',K
+	Escribir 'Grados F:',F
+FinAlgoritmo
